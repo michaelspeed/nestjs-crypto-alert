@@ -23,12 +23,16 @@
         "db-pull": "npx prisma db pull"
     },
     "dependencies": {
+        "@moralisweb3/common-evm-utils": "^2.27.2",
         "@nestjs/common": "^10.0.0",
         "@nestjs/config": "^3.2.3",
         "@nestjs/core": "^10.0.0",
         "@nestjs/platform-express": "^10.0.0",
+        "@nestjs/schedule": "^4.1.1",
         "@nestjs/swagger": "^7.4.2",
         "@prisma/client": "5.21.1",
+        "moralis": "^2.27.2",
+        "nodemailer": "^6.9.15",
         "reflect-metadata": "^0.2.0",
         "rxjs": "^7.8.1"
     },
